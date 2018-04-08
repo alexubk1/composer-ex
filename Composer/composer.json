@@ -1,0 +1,7 @@
+{
+    "name": "ths/composer",
+    "type": "library",
+    "require": {
+        "ehime/hello-world": "^1.0"
+    }
+}
