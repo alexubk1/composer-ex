@@ -6,14 +6,9 @@
  * Time: 11:33
  */
 namespace hello;
-
-
-use HelloWorld\SayHello;
-
-class hello
-{
-public function talk(){
-    return SayHello::world();
-}
-
+class Hello {
+    public function talk()
+    {
+        return "Hello World !";
+    }
 }
