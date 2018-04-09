@@ -5,7 +5,7 @@
  * Date: 08/04/2018
  * Time: 11:33
  */
-namespace hello;
+namespace src\wcs;
 class Hello {
     public function talk()
     {

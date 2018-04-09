@@ -2,8 +2,8 @@
 require "../vendor/autoload.php";
 
 use HelloWorld\SayHello;
-use src\wcs\hello;
+use \src\wcs\Hello;
 
-$HelloWorld = new Hello;
+$HelloWorld = new Hello();
 echo $HelloWorld->talk();
 echo SayHello::world();
